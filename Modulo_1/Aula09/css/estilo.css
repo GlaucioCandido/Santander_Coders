@@ -1,0 +1,14 @@
+body{
+    background-color:lightslategray;
+     font-family: Oswald, sans-serif;
+        font-size: 14px;
+        line-height: 2;
+     }
+
+form {
+    text-align: center;
+    background-color: royalblue;
+    font-style: italic;
+   }
+
+

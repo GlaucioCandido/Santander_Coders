@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="css/style.css" >
+    <title>AULA - 03 </title>
+</head>
+<body>
+ <!-- seção de conteúdo monotemático - normalmente para bloco específicos -->
+    <section>
+        <h1>Cabeçalho</h1>
+        <p>Um monte de conteúdo incrível</p>
+        <!-- informações dentro de uma seção -->
+        <article>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi deleniti quia repellat nesciunt, recusandae,
+                rerum dolorem, reprehenderit aliquam tenetur aperiam iste eveniet quaerat sed delectus. Repellendus harum eveniet
+                possimus! Numquam.</p>
+        </article>
+    </section>
+
+
+<em> Texto que deve ser Enfatizado </em>
+<mark> Texto que deverá ser Realçado</mark>
+<form action="" method="POST">
+<!-- radio box, name deve ser o mesmo para fazer parte do mesmo grupo -->
+        <br><br>
+        <input type="radio" name="estado_civil" value="Solteiro" required />
+	<label>Solteiro</label> 	
+        <input type="radio" name="estado_civil" value="Casado" required />
+	<label>Casado</label> 
+        <br>
+
+<!-- checkbox, monta uma lista de valores selecionados -->
+        <br>
+        <input type=”checkbox” name=”hobbies” value=”Aeromodelismo” required />
+   	<input type=”checkbox” name=”hobbies” value=”Música” required />
+    	<input type=”checkbox” name=”hobbies” value=”Cerveja_Artesanal” required />
+        <br>
+
+    
+    <br><br>
+    <label for=”name”> Nome e sobrenome: </label>
+<br>
+<input type=”email” placeholder=”user@email.com”/>
+
+<select name=”país”> 
+	<option value=”Ar”>Argentina</option>
+<option value=”Br”>Brasil</option>
+<option value=”Co”>Colômbia</option>
+</select>
+<select name=”país”> 
+	<optgroup label=”América_do_Sul”>
+		<option value=”Ar”>Argentina</option>
+<option value=”Br”>Brasil</option>
+<option value=”Co”>Colômbia</option>
+</optgroup>
+</select>
+<div>
+    <textarea name=”mensagem” > </textarea>
+</div>
+
+<div>
+<button type=”submit”>Enviar</button>
+<button type=”reset”>Excluir</button>
+<button type=”button”>Outra ação</button>
+</div>
+</form>
+</body>
+</html>

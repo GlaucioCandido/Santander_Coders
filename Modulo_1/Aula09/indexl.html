@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link href="css/estilo.css" rel= "stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    
+    <script src="scripts/jquery.min.js.download"></script>
+    <script src="scripts/jquery.imagemapster.js.download"></script>
+
+
+    <title>Formulario  JSON </title>
+
+    
+
+    <script >
+
+       function envio(){
+        var id = document.getElementById("id").value; 
+        var name = document.getElementById("name").value; 
+        var location = document.getElementById("location").value; 
+    
+        console.log(" ANTES DO POST ", id , name, location);
+
+        $.ajax({
+          url : "http://localhost:3000/users",
+          dataType="txt",
+          method : "POST",
+          data : {
+                  
+                  name : name,
+                  location : location
+                }
+              })
+    
+              console.log(" DEPOIS DO POST ", id , name, location);
+        }
+
+
+      </script>
+    
+   
+</head>
+
+
+<body>
+
+
+
+
+    <!-- Formulario com aplicação Json -->
+
+    <form class="form" method="POST" action="">
+        <label>ID</label>
+        <input type="text" id="id" required/>
+        <p></p>
+        <label>Nome</label>
+        <input class="nome" name="nome" type="text" id="name" value="" required/>
+        <p></p>
+        <label>Local</label>
+        <input class="location" name="location" type="text" id="location" value="" required/>
+        <p></p>
+      <!--  <button onclick=funcion(envio())>Enviar</button> -->
+
+        <button type="submit" id="button" onclick=envio()> Enviar </button>
+        <p></p>
+   </form>
+
+   <!--<button onclick="buscar()">BUSCAR</button> -->
+
+
+
+  
+
+  
+
+</body>
+
+</html>

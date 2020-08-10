@@ -1,0 +1,48 @@
+body {
+    
+        background-color: #80cbc4;
+        font-family: Oswald, sans-serif;
+        font-size: 14px;
+        line-height: 2;
+
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+ul {
+    
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+#item {
+    text-decoration: underline;
+    line-height: 3;    
+}
+
+ol {
+    line-height: 1.6;
+}
+
+#mark01{
+    background-color: pink;  
+}
+
+#stro01{
+    background-color: rgb(243, 12, 51);  
+}
+
+#em01{
+    background-color: rgb(102, 111, 236);  
+}
+
+#Escolha{
+    text-align: left;
+}
+  
+#comentarios{
+resize: none;    
+}

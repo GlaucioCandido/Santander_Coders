@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Andrew",
+      "location": "USA"
+    },
+    {
+      "id": 2,
+      "name": "Julio",
+      "location": "Canadá"
+    },
+    {
+      "id": 3,
+      "name": "Rafael",
+      "location": "Brasillllll"
+    },
+    {
+      "id": 4,
+      "name": "Ze",
+      "location": "Marrocos"
+    },
+    {
+      "id": 5,
+      "name": "Glaucio",
+      "location": "Grécia"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+body{
+    background-color:lightslategray;
+     font-family: Oswald, sans-serif;
+        font-size: 14px;
+        line-height: 2;
+     }
+
+h1 {
+    text-align: center;
+    background-color: royalblue;
+    font-style: italic;
+   }
+
+body {
+    background-color: #80cbc4;
+     }
+
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+   }
+#item {
+    text-decoration: underline;
+    line-height: 3;    
+}
+
+ol {
+    line-height: 1.6;
+}
+     
+    

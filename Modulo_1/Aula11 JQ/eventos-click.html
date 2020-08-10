@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap - link cdn -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- jquery -->
+		<script src="jquery-2.2.1.js"></script>
+
+		<!-- para trabakhar com javascript tem que colocar um $ no inicio do comando -->
+    <script type="text-javascript">
+        $(document).ready(function(){
+            $("#campo1").click(function(){
+                alert("Elemento Clicado");
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+    <div id="campo1">
+        <p>
+            Elemento
+        </p>
+    </div>
+
+    <input class="campo1" type="text">
+
+    <select class="campo2">
+        <option value="1">Primeira opção</option>
+        <option value="2">Segunda opção</option>
+    </select>
+
+    <!-- Principais funções
+        click
+        dblclick
+        mousedown
+        mouseover
+        mouseout
+    -->
+    <!-- principais teclas
+        keydown
+        keypress
+        keyup
+    -->
+
+    <!-- 
+        blur - elemento perdeu o foco
+        change - o elemento foi trocado
+    -->
+</body>
+</html>
